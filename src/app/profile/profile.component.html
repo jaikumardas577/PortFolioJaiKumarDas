@@ -1,0 +1,45 @@
+<ng-template [ngIf]="showcontent == ''">
+
+<app-header></app-header>
+<div class="page-content">
+    <app-intro></app-intro>
+    <app-about></app-about>
+    <app-experience></app-experience>
+    <!-- <app-matrix></app-matrix> -->
+    <app-projects></app-projects>
+    <app-skills></app-skills>
+    <app-education></app-education>
+    <!-- <app-reference></app-reference>  -->
+    <app-contact></app-contact>
+</div>
+<app-footer></app-footer>
+<!-- <ngx-spinner bdColor="rgba(1,1,1,1)" size="medium" color="white" type="ball-spin-clockwise"></ngx-spinner> -->
+
+</ng-template>
+<div class="row" [style.display]="showloader" [style.margin]="'200px'" [style.top]="'50%'"  [style.bottom]="'50%'" [style.position]="'sticky'">
+  <div class="col-md-4"></div>
+  <div class="col-md-4">
+<section style="position: sticky;">
+<div class="container">
+  <div class="wrapper">
+    <div class="cube">
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <div class="cube">
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="cube">
+    </div>
+  </div>
+</div>
+</section>
+
+</div>
+<div class="col-md-4"></div>
+</div>
+
+
+
