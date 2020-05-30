@@ -10,6 +10,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AnnimationComponent } from './annimation/annimation.component';
 import { AngularSvgIconModule } from 'angular-svg-icon';
+import { ToastrModule } from 'ngx-toastr';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+
 
 // import { NgxAddchatModule } from  'ngx-addchat';
 
@@ -38,7 +41,9 @@ const config: ExtraOptions = {
     ProfileModule,
     HttpClientModule,
     FontAwesomeModule,
-    AngularSvgIconModule
+    AngularSvgIconModule,
+    ToastrModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent],

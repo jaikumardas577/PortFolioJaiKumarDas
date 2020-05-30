@@ -19,6 +19,9 @@ import { AnnimationComponent } from './annimation/annimation.component';
 import { MatrixComponent } from './matrix/matrix.component';
 import { ChartsModule } from 'ng2-charts';
 import { AngularSvgIconModule } from 'angular-svg-icon';
+import { ToastrModule } from 'ngx-toastr';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+
 
 @NgModule({
   imports: [
@@ -27,7 +30,8 @@ import { AngularSvgIconModule } from 'angular-svg-icon';
     SnotifyModule,
     NgxSpinnerModule,
     ChartsModule,
-    AngularSvgIconModule
+    AngularSvgIconModule,
+    MatSnackBarModule
 
   ],
   declarations: [
@@ -50,6 +54,7 @@ import { AngularSvgIconModule } from 'angular-svg-icon';
     { provide: 'SnotifyToastConfig', useValue: ToastDefaults},
     SnotifyService,
     ChartsModule,
+    ToastrModule
   ]
 })
 export class ProfileModule { }
