@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { ProfileService } from '../profile.service';
 import { SnotifyService } from 'ng-snotify';
 import { environment } from '../../../environments/environment';
+import {MatSnackBar} from '@angular/material/snack-bar';
+// import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-contact',
@@ -13,17 +15,23 @@ export class ContactComponent implements OnInit {
   model: any = {};
   formStatus;
   hideform;
+  durationInSeconds = 5;
+  submitText = "Submit"
 
   constructor(){}
+
 
   ngOnInit() {
     this.formStatus = "none"
     this.hideform = false
+    this.submitText = "Submit"
     
      }
      submitform(){
-      this.formStatus = "grid"
-      this.hideform = true
+      // this.formStatus = "grid"
+      // this.hideform = true
+      this.submitText = "Submitted"
+      // this.openSnackBar()
      }
 
 
@@ -51,3 +59,4 @@ export class ContactComponent implements OnInit {
   // }
 
 }
+export class PizzaPartyComponent {}

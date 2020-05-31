@@ -90,31 +90,36 @@
        -->
 
 
-<section class="neon-title" id = "contact">
+<section class="neon-title" id="contact">
   <div class="text">
     <h1>Contact</h1>
     <h1>Contact</h1>
   </div>
 </section>
+<div class="container">
 <ng-template [ngIf]="!hideform">
-<form>
-  <input name="name" type="text" class="feedback-input" placeholder="Name" />
-  <input name="email" type="text" class="feedback-input" placeholder="Email" />
-  <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
-  <a class="anime-button" (click) = "submitform()">
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    Submit
-  </a>
-</form>
+
+  <form>
+    <input name="name" type="text" class="feedback-input" placeholder="Name" />
+    <input name="email" type="text" class="feedback-input" placeholder="Email" />
+    <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+    <a class="anime-button" (click)="submitform()">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      {{submitText}}
+    </a>
+  </form>
 </ng-template>
+</div>
 <div class="container" [style.display]="formStatus">
   <div style="margin-left: 40px;">
-    <svg-icon src= '../../../assets/svg/undraw_message_sent_1030.svg' [svgStyle]="{ 'width.vh':80,'height.vh':80  }"></svg-icon>
+    <svg-icon src='../../../assets/svg/undraw_message_sent_1030.svg' [svgStyle]="{ 'width.vh':80,'height.vh':80  }">
+    </svg-icon>
   </div>
-  
+
 </div>
+
 
 <!-- <ng-snotify class="material"></ng-snotify> -->
