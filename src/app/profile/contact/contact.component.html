@@ -89,7 +89,7 @@
       </div>
        -->
 
-
+       <ngx-alerts></ngx-alerts>
 <section class="neon-title" id="contact">
   <div class="text">
     <h1>Contact</h1>
@@ -99,17 +99,20 @@
 <div class="container">
 <ng-template [ngIf]="!hideform">
 
-  <form>
-    <input name="name" type="text" class="feedback-input" placeholder="Name" />
-    <input name="email" type="text" class="feedback-input" placeholder="Email" />
-    <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
-    <a class="anime-button" (click)="submitform()">
+  <form #myForm="ngForm">
+    <input name="name" type="text" class="feedback-input" [(ngModel)]="name" placeholder="Name" />
+ 
+    <input name="email" type="text" class="feedback-input" [(ngModel)]="email" placeholder="Email" />
+    <textarea name="text" class="feedback-input" [(ngModel)]="contact" placeholder="Comment" ></textarea>
+    <h6>min 20 character</h6>
+    <a class="anime-button" (click)="submitform(myForm);myForm.reset()">
       <span></span>
       <span></span>
       <span></span>
       <span></span>
       {{submitText}}
     </a>
+
   </form>
 </ng-template>
 </div>
