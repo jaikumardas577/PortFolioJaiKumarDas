@@ -651,7 +651,7 @@ $btn-purple-color: #772aff;
   }
   h2{
     color: aqua;
-  padding: 0;
+  padding:10px;
   box-sizing: border-box;
   line-height: 1.2;
   margin: 0 0 10px 0;
@@ -690,6 +690,7 @@ $btn-purple-color: #772aff;
   box-sizing: border-box;
   margin: 0 0 1em 0;
   color: rgba(41, 209, 26, 0.973);
+  padding:10px;
 
   // height: 75px;
   }
@@ -705,4 +706,5 @@ $btn-purple-color: #772aff;
     border: 0;
     max-width: 100%;
     height: auto;
-    margin: 12px 10px 0;}
+    margin: 12px 10px 0;
+  }

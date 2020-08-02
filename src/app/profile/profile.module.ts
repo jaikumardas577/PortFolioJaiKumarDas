@@ -19,7 +19,11 @@ import { AnnimationComponent } from './annimation/annimation.component';
 import { MatrixComponent } from './matrix/matrix.component';
 import { ChartsModule } from 'ng2-charts';
 import { AngularSvgIconModule } from 'angular-svg-icon';
+// import { ToastrModule } from 'ngx-toastr';
 import { ToastrModule } from 'ngx-toastr';
+import { AlertModule } from 'ngx-alerts';
+
+
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 
 
@@ -31,7 +35,10 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
     NgxSpinnerModule,
     ChartsModule,
     AngularSvgIconModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    ToastrModule,
+    AlertModule.forRoot({maxMessages: 5, timeout: 5000, position: 'right'})
+
 
   ],
   declarations: [
