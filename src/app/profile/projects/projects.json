@@ -1,0 +1,179 @@
+{
+    "Projects": [
+        {
+            "ProjectId":"proPR1",
+            "ProjectName": "Vehicle Detection Distance Estmation",
+            "ProjectDetails": "Build and train a classifier in Support Vector Machine for classifying vehicles non-vehicles in /a road.The classifier is trained on large Dataset of Udacity and is predicted with 93 percent accuracy",
+            "ProjectRole": "",
+            "ProjectStartDate": "",
+            "ProjectEndDate": "",
+            "ProjectCategory": ["Machine Learning"],
+            "Category":"Personal",
+            "Technology_stack" : [],
+            "github_link":""
+        },
+        {
+            "ProjectId":"proPR2",
+            "ProjectName": "Developed Website For Matrix Junior College",
+            "ProjectDetails": "The websites provides all the necessary information about the college alongwith news,notices admin secure dashboard with facility to manage students,teachers and staff information . It is hosted in aws EC2-premise.",
+            "ProjectRole": "",
+            "ProjectStartDate": "",
+            "ProjectEndDate": "",
+            "ProjectCategory": ["Web Development"],
+            "Category":"Personal",
+            "Technology_stack" : [],
+            "github_link":""
+        },
+        {
+            "ProjectId":"proPR3",
+            "ProjectName": "Knn-IF Algorithm Implementation",
+            "ProjectDetails": "The proposed method is capable of handling noises over certain features which abruptly affect classification by traditional KNN algorithm due to its operation over full set of features.",
+            "ProjectRole": "",
+            "ProjectStartDate": "",
+            "ProjectEndDate": "",
+            "ProjectCategory": ["Machine Learning"],
+            "Category":"Personal",
+            "Technology_stack" : [],
+            "github_link":""
+        },
+
+        {
+            "ProjectId":"proPR4",
+            "ProjectName": "Face Detection and Identification",
+            "ProjectDetails": "A simple face recognition tool built with OpenCV in python . It identifies and classifies all faces in an image.",
+            "ProjectRole": "",
+            "ProjectStartDate": "",
+            "ProjectEndDate": "",
+            "ProjectCategory": ["Machine Learning"],
+            "Category":"Personal",
+            "Technology_stack" : [],
+            "github_link":""
+        },
+        {
+            "ProjectId":"proPR5",
+            "ProjectName": "Smart Snake-Deep-Learning",
+            "ProjectDetails": "This is snake who is taught deeply with neural algorithim to get the food with no human guidance.",
+            "ProjectRole": "",
+            "ProjectStartDate": "",
+            "ProjectEndDate": "",
+            "ProjectCategory": ["Machine Learning"],
+            "Category":"Personal",
+            "Technology_stack" : [],
+            "github_link":""
+        },
+        {
+            "ProjectId":"proPR6",
+            "ProjectName": "Wine-Recommendation-System",
+            "ProjectDetails": "A recommender system for all wine lovers built on the Django Platform.",
+            "ProjectRole": "",
+            "ProjectStartDate": "",
+            "ProjectEndDate": "",
+            "ProjectCategory": ["Web Development","Machine Learning"],
+            "Category":"Personal",
+            "Technology_stack" : [],
+            "github_link":""
+        },
+        {
+            "ProjectId":"proPR7",
+            "ProjectName": "Akashic",
+            "ProjectDetails": "A generic automation platform for handling the end-to-end data analytics challenges & operations of any given Business Enterprise handling data at scale, using the latest state of art Big Data & Cloud Technologies, ML, AI.",
+            "ProjectRole": "",
+            "ProjectStartDate": "",
+            "ProjectEndDate": "",
+            "ProjectCategory": ["Big Data","Web Development","Devops"],
+            "Category":"Work",
+            "Achievement":[],
+            "Resposibilties": [],
+            "Company":"Dhira Software Private Limited",
+            "Technology_stack" : [],
+            "github_link":""
+        },
+        {
+            "ProjectId":"proPR8",
+            "ProjectName": "Automated Invoice Processing",
+            "ProjectDetails": "Invoice Processing takes the slow practice of manually typing invoices into the accounts system and speeds it up using the software. Scanned paper and emailed invoices have their data extracted, coded, verified, authorized and inputted into the accountancy software.",
+            "ProjectRole": "",
+            "ProjectStartDate": "",
+            "ProjectEndDate": "",
+            "ProjectCategory": ["Machine Learning","Web Development","Devops","RestFul API","Web Scrapping"],
+            "Category":"Work",
+            "Achievement":[],
+            "Resposibilties": [
+                "Developed Rest API’s Using Python, Django",
+                "Involved in developing UI Screens using Angular, Html and CSS",
+                "Involved in RestApi Intregation in UI using Angular",
+                "Designed Algorithm for the engine and Implemented using Python, AWS Textract, Image Manipulation etc",
+                "Managed Code Repositories including branching",
+                "Involved in designing CI/CD plan for the product",
+                "Created and maintained automated CI/CD pipelines for code deployment using AWS Code Build and AWS Code Pipeline"
+                ],
+            "Company":"Dhira Software Private Limited",
+            "Technology_stack" : [],
+            "github_link":""
+        },
+        {
+            "ProjectId":"proPR9",
+            "ProjectName": "HelSinki Smart City Data Pipeline",
+            "ProjectDetails": "A recommender system for all wine lovers built on the Django Platform.",
+            "ProjectRole": "",
+            "ProjectStartDate": "",
+            "ProjectEndDate": "",
+            "ProjectCategory": ["Big Data","Backend","RestFul API"],
+            "Category":"Work",
+            "Achievement":[],
+            "Resposibilties": [],
+            "Company":"Dhira Software Private Limited",
+            "Technology_stack" : [],
+            "github_link":""
+        },
+        {
+            "ProjectId":"proPR10",
+            "ProjectName": "Akashic Real Time Data Pipeline",
+            "ProjectDetails": "Akashic Real Time Data Pipeline is a Real Time Data Pipeline which do transformation of the data that is generated continuously and store in warehouse for further processing or visualization. Akashic Real Time Data Pipeline uses Hadoop, spark in Backend and Apache Kafka as a streaming platform. It is platform independent solution and can be used in any on-prem and any cloud provider.",
+            "ProjectRole": "",
+            "ProjectStartDate": "",
+            "ProjectEndDate": "",
+            "ProjectCategory": ["Big Data","Backend","RestFul API"],
+            "Category":"Work",
+            "Achievement":[],
+            "Resposibilties": [],
+            "Company":"Dhira Software Private Limited",
+            "Technology_stack" : [],
+            "github_link":""
+            
+        },
+        {
+            "ProjectId":"proPR11",
+            "ProjectName": "Rules Engine",
+            "ProjectDetails": "It is an expert-system program, which runs the rules on the data and if any condition matches then it executes the corresponding actions.",
+            "ProjectRole": "",
+            "ProjectStartDate": "",
+            "ProjectEndDate": "",
+            "ProjectCategory": ["Web Development","Backend","RestFul API"],
+            "Category":"Work",
+            "Achievement":[],
+            "Resposibilties": [],
+            "Company":"Dhira Software Private Limited",
+            "Technology_stack" : [],
+            "github_link":""
+        },
+        {
+            "ProjectId":"proPR12",
+            "ProjectName": "Logo Scrapper",
+            "ProjectDetails": "Logo Scrapper is distributed robust and scalable scrapper which is used to collect business information of any company on the web. It collects the business logo and the business name of that company by scrapping the official website",
+            "ProjectRole": "",
+            "ProjectStartDate": "",
+            "ProjectEndDate": "",
+            "ProjectCategory": ["Backend","Scrapping","RestFul API"],
+            "Category":"Work",
+            "Achievement":[],
+            "Resposibilties": [],
+            "Company":"Dhira Software Private Limited",
+            "Technology_stack" : [],
+            "github_link":""
+        }
+
+
+
+    ]
+}

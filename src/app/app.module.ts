@@ -12,6 +12,12 @@ import { AnnimationComponent } from './annimation/annimation.component';
 import { AngularSvgIconModule } from 'angular-svg-icon';
 import { ToastrModule } from 'ngx-toastr';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
+import { MyModalComponent } from './my-modal/my-modal.component';
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatChipsModule} from '@angular/material/chips';
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+
+
 
 
 // import { NgxAddchatModule } from  'ngx-addchat';
@@ -32,7 +38,9 @@ const config: ExtraOptions = {
 @NgModule({
   declarations: [
     AppComponent,
-    AnnimationComponent
+    AnnimationComponent,
+    MyModalComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -43,9 +51,16 @@ const config: ExtraOptions = {
     FontAwesomeModule,
     AngularSvgIconModule,
     ToastrModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    MatDialogModule,
+    MatChipsModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
+
+  exports : [MatDialogModule,MatChipsModule],
+  entryComponents: [MyModalComponent]
 })
 export class AppModule { }

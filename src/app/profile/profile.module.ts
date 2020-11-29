@@ -22,23 +22,27 @@ import { AngularSvgIconModule } from 'angular-svg-icon';
 // import { ToastrModule } from 'ngx-toastr';
 import { ToastrModule } from 'ngx-toastr';
 import { AlertModule } from 'ngx-alerts';
-
-
 import {MatSnackBarModule} from '@angular/material/snack-bar';
-
+import {MatChipsModule} from '@angular/material/chips';
+import { RouterModule, Routes } from '@angular/router';
+import { AppRoutingModule } from './../../app/app-routing.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
+    RouterModule,
     SnotifyModule,
     NgxSpinnerModule,
     ChartsModule,
     AngularSvgIconModule,
     MatSnackBarModule,
     ToastrModule,
-    AlertModule.forRoot({maxMessages: 5, timeout: 5000, position: 'right'})
-
+    AlertModule.forRoot({maxMessages: 5, timeout: 5000, position: 'right'}),
+    NgxSpinnerModule,
+    MatChipsModule,
+    AppRoutingModule
+    
 
   ],
   declarations: [

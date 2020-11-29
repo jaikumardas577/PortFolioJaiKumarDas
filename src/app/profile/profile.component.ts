@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { NgxSpinnerService } from '../../../node_modules/ngx-spinner';
+import { NgxSpinnerService } from "ngx-spinner";
 
 @Component({
   selector: 'app-profile',
@@ -17,6 +17,7 @@ export class ProfileComponent implements OnInit {
   ngOnInit() {
     this.showloader = 'grid';
     this.showcontent = "none"
+    this.spinner.show();
     // alert("R")
     setTimeout(() => {
       this.showloader = 'none'

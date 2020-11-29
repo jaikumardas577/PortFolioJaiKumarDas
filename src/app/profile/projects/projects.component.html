@@ -9,41 +9,46 @@
     <div >
       <div>
         <div class="row">
+
+          <nav class="category-navigation" id="js-portfolio-filters">
+            <span class="category-filters">Filters:</span>
+            <button class="button" data-type="html" data-track="" data-category="Category Filter" data-action="Clicked Filter"
+              data-label="HTML" (click) = "enableWebDevelopment()">Web Development</button>
+            <button class="button" data-type="css" data-track="" data-category="Category Filter" data-action="Clicked Filter"
+              data-label="CSS" (click) = "enableDevops()">Dev Ops</button>
+            <button class="button" data-type="php" data-track="" data-category="Category Filter" data-action="Clicked Filter"
+              data-label="PHP" (click) = "enableRest()">RestFul API</button>
+            <button class="button" data-type="nodejs" data-track="" data-category="Category Filter" data-action="Clicked Filter"
+              data-label="NodeJS" (click) = "enableML()">Machine Learning</button>
+            <button class="button" data-type="reactjs" data-track="" data-category="Category Filter" data-action="Clicked Filter"
+            data-label="ReactJS" (click) = "enableScrapping()">Web Scrapping</button>
+          </nav>
           <div class="col-md-6">
             <div class="row">
-              <div class="col-md-12">
+              <div *ngFor="let project of allProject; let i = index" class="col-md-12">
                 <div class="card">
-                  <h2 data-test-id="promo-buildtest">Vehicle Detection &amp; Distance Estmation</h2>
-                  <p>Build and train a classifier in Support Vector Machine for classifying vehicles
-                    non-vehicles in a road.The classifier is trained on large Dataset of Udacity and is
-                    predicted with 93 percent accuracy </p>
+                  <h2 data-test-id="promo-buildtest">{{project.ProjectName}}</h2>
+                  <p>{{project.ProjectDetails}} </p>
+                    <div  class="col-md-12">
+                      <mat-chip-list aria-label="Fish selection">
+                        <!-- <mat-chip>One fish</mat-chip>
+                        <mat-chip>Two fish</mat-chip> -->
+                        <mat-chip *ngIf="project.Category.includes('Work')" color="primary" selected>{{project.Category}}</mat-chip>
+                        <mat-chip *ngIf="project.Category.includes('Personal')" color="accent" selected>{{project.Category}}</mat-chip>
+                        <mat-chip  *ngFor="let cat of project.ProjectCategory">{{cat}}</mat-chip>
+                        
+                      </mat-chip-list>
+                    </div>
+
+
+
                 </div>
+
               </div>
 
             </div>
 
-            <div class="row">
-              <div class="col-md-12">
-                <div class="card">
-                  <h2 data-test-id="promo-buildtest">Developed Website For Matrix Junior College</h2>
-                  <p> The websites provides all the necessary information about the college alongwith news,notices admin
-                    secure dashboard with facility to manage students,teachers and staff information . It is hosted in aws EC2-premise.</p>
-                </div>
-              </div>
 
-            </div>
-
-            <div class="row">
-              <div class="col-md-12">
-                <div class="card">
-                  <h2 data-test-id="promo-buildtest">Knn-IF Algorithm &amp; Implementation</h2>
-                  <p> The proposed method is capable of handling noises over certain features which abruptly affect
-                    classification by traditional KNN
-                    algorithm due to its operation over full set of features</p>
-                </div>
-              </div>
-
-            </div>
 
           </div>
           <div class="col-md-6 d-none d-md-block ">
@@ -54,6 +59,7 @@
 
 
       </div>
+
 
     </div>
 

@@ -53,7 +53,7 @@ main {
   box-shadow: inset 0 0 0 7px $blue, inset 0 0 0 9px currentcolor;
   position: relative;
   height: 50vh;
-  font-size: small;
+  font-size: medium;
 
   &:focus {
     outline: none;
@@ -116,4 +116,9 @@ footer {
 
 #outline-body {
   background-color: darkgray;
+}
+.profile_img{
+  border-width: medium;
+  border-color: #fff;
+  margin: 2em;
 }
