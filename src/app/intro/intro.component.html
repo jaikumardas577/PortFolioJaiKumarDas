@@ -5,11 +5,14 @@
             <p class="personal-profile__work">Software Developer at DHIRA Software Private Limited </p>
             <div class = "row">
 
-                <div style="margin-left: 10px;margin-right: 10px;">
+                <div style="margin-left: 10px;margin-right: 10px;"  (click)="openGithub()">
                   <svg-icon src="../../../assets/svg/github_white.svg" [svgStyle]="{ 'width.vh':10,'height.vh':10,'fill':'white'}"></svg-icon>
                 </div>
-                <div style="margin-left: 10px;margin-right: 10px;">
+                <div style="margin-left: 10px;margin-right: 10px;" (click)="openLinkdedin()">
                   <svg-icon src="../../../assets/svg/linkedin_white.svg" [svgStyle]="{ 'width.vh':10,'height.vh':10,'fill':'white' }"></svg-icon>
+                </div>
+                <div style="margin-left: 10px;margin-right: 10px;" (click)="opentwitter()">
+                  <svg-icon src="../../../assets/svg/twitter.svg" [svgStyle]="{ 'width.vh':10,'height.vh':10,'fill':'white' }"></svg-icon>
                 </div>
             </div>
 

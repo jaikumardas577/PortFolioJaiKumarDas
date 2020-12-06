@@ -1,0 +1,48 @@
+
+
+i {
+  font: normal 200px/ 100px 'Nixie One', Helvetica, Arial;
+    color: #EEDDE0;
+    text-shadow: 0 0 30px #EC637B, 
+        0 0 10px rgba(230, 161, 173, 0.41), 
+        0 0 100px #E6A1AD, 
+        0 0 500px #F36780, 
+        5px 9px 5px rgba(0, 0, 0, 0.5);
+}
+
+.neon .off {
+    color: black;
+    text-shadow: 7px 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+i{
+    color: black;
+    text-shadow: 7px 7px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.personal_profile_name{
+
+  -webkit-tap-highlight-color: transparent;
+  color: #fff;
+  font-family: Roboto Mono,monospace;
+  box-sizing: inherit;
+  font-size: 44px;
+  line-height: 50px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 10px;
+
+}
+
+.personal-profile__work{
+  -webkit-tap-highlight-color: transparent;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+color: #fff;
+font-family: Roboto Mono,monospace;
+box-sizing: inherit;
+margin-bottom: 20px;
+}

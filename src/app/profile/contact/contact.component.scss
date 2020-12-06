@@ -204,3 +204,25 @@ textarea {
 h6{
   color:rgb(238, 227, 227);
 }
+
+.card
+{
+// font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+font-family: monospace;
+line-height: 1.5;
+font-size: 15px;
+color: white;
+box-sizing: border-box;
+background: #2c303a;
+// padding: 1.5rem 1.5rem 2rem;
+margin: auto;
+padding: auto;
+border-radius: 10px;
+position: relative;
+z-index: 1;
+
+}
+.card-text{
+  margin: 1em;
+  padding: 1em;
+}

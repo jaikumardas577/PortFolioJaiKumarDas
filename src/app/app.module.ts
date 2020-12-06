@@ -16,6 +16,12 @@ import { MyModalComponent } from './my-modal/my-modal.component';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatChipsModule} from '@angular/material/chips';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { IntroComponent } from './../app/intro/intro.component';
+import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
+
+import { NgxSpinnerModule } from './../../node_modules/ngx-spinner';
+
 
 
 
@@ -40,6 +46,9 @@ const config: ExtraOptions = {
     AppComponent,
     AnnimationComponent,
     MyModalComponent,
+    IntroComponent,
+    FooterComponent,
+    HeaderComponent
     
   ],
   imports: [
@@ -54,6 +63,7 @@ const config: ExtraOptions = {
     MatSnackBarModule,
     MatDialogModule,
     MatChipsModule,
+    NgxSpinnerModule
     
   ],
   providers: [],
