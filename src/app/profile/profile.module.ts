@@ -15,7 +15,7 @@ import { ContactComponent } from './contact/contact.component';
 import { NgxSpinnerModule } from '../../../node_modules/ngx-spinner';
 import { ProjectsComponent } from './projects/projects.component';
 import { MatrixComponent } from './matrix/matrix.component';
-import { ChartsModule } from 'ng2-charts';
+import { ChartsModule,ThemeService } from 'ng2-charts';
 import { AngularSvgIconModule } from 'angular-svg-icon';
 // import { ToastrModule } from 'ngx-toastr';
 import { ToastrModule } from 'ngx-toastr';
@@ -58,7 +58,7 @@ import { AppRoutingModule } from './../../app/app-routing.module';
     MatrixComponent,
   ],
   providers: [
-    { provide: 'SnotifyToastConfig', useValue: ToastDefaults},
+    { provide: 'SnotifyToastConfig', useValue: ToastDefaults},ThemeService ,
     SnotifyService,
     ChartsModule,
     ToastrModule

@@ -87,28 +87,28 @@ footer {
   }
 }
 
-.cursor:after {
-  content: "";
-  display: inline-block;
-  width: 1ch;
-  height: 1.1em;
-  background-color: $blue;
-  margin: -0.03em 0 -0.03em -0.03em;
-}
+// .cursor:after {
+//   content: "";
+//   display: inline-block;
+//   width: 1ch;
+//   height: 1.1em;
+//   background-color: $blue;
+//   margin: -0.03em 0 -0.03em -0.03em;
+// }
 
-.cursor.active:after {
-  animation: cursor 400ms ease-in-out infinite;
-}
+// .cursor.active:after {
+//   animation: cursor 400ms ease-in-out infinite;
+// }
 
-@keyframes cursor {
-  0%,
-  100% {
-    background-color: $blue;
-  }
-  50% {
-    background-color: $grey;
-  }
-}
+// @keyframes cursor {
+//   0%,
+//   100% {
+//     background-color: $blue;
+//   }
+//   50% {
+//     background-color: $grey;
+//   }
+// }
 
 // #about {
 //   background: rgb(30, 30, 40);

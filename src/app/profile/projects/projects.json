@@ -10,7 +10,8 @@
             "ProjectCategory": ["Machine Learning"],
             "Category":"Personal",
             "Technology_stack" : [],
-            "github_link":""
+            "github_link":"",
+            "technologies_used":["Python"]
         },
         {
             "ProjectId":"proPR2",
@@ -22,7 +23,8 @@
             "ProjectCategory": ["Web Development"],
             "Category":"Personal",
             "Technology_stack" : [],
-            "github_link":""
+            "github_link":"",
+            "technologies_used":["AWS EC2","AWS Lightsail","Django","Apache Nginx","HTML5","JavaScript"]
         },
         {
             "ProjectId":"proPR3",
@@ -34,7 +36,8 @@
             "ProjectCategory": ["Machine Learning"],
             "Category":"Personal",
             "Technology_stack" : [],
-            "github_link":""
+            "github_link":"",
+            "technologies_used":["Python","Supervised learning"]
         },
 
         {
@@ -47,7 +50,8 @@
             "ProjectCategory": ["Machine Learning"],
             "Category":"Personal",
             "Technology_stack" : [],
-            "github_link":""
+            "github_link":"",
+            "technologies_used":["Python","OpenCV"]
         },
         {
             "ProjectId":"proPR5",
@@ -59,7 +63,8 @@
             "ProjectCategory": ["Machine Learning"],
             "Category":"Personal",
             "Technology_stack" : [],
-            "github_link":""
+            "github_link":"",
+            "technologies_used":["Python","Supervised Learning"]
         },
         {
             "ProjectId":"proPR6",
@@ -71,7 +76,8 @@
             "ProjectCategory": ["Web Development","Machine Learning"],
             "Category":"Personal",
             "Technology_stack" : [],
-            "github_link":""
+            "github_link":"",
+            "technologies_used":["Python","Supervised Learning","Django"]
         },
         {
             "ProjectId":"proPR7",
@@ -86,7 +92,8 @@
             "Resposibilties": [],
             "Company":"Dhira Software Private Limited",
             "Technology_stack" : [],
-            "github_link":""
+            "github_link":"",
+            "technologies_used":["Python","JavaScript","NodeJS","Apache Spark","Hadoop","Apache Kafka","AWS EMR","AWS EMR","Angular8","AWS Lambda","Aws Ec2","Postgres","Azure Sql Server"]
         },
         {
             "ProjectId":"proPR8",
@@ -109,7 +116,8 @@
                 ],
             "Company":"Dhira Software Private Limited",
             "Technology_stack" : [],
-            "github_link":""
+            "github_link":"",
+            "technologies_used":["AWS Textract","AWS EMR","Python", "Django","Celery","Apache RabbitMQ"]
         },
         {
             "ProjectId":"proPR9",
@@ -124,7 +132,8 @@
             "Resposibilties": [],
             "Company":"Dhira Software Private Limited",
             "Technology_stack" : [],
-            "github_link":""
+            "github_link":"",
+            "technologies_used":["CDC","ETL","Apache Hadoop","Apache Spark","Apache Kafka","AWS S3","AWS Ec2","Python"]
         },
         {
             "ProjectId":"proPR10",
@@ -139,7 +148,8 @@
             "Resposibilties": [],
             "Company":"Dhira Software Private Limited",
             "Technology_stack" : [],
-            "github_link":""
+            "github_link":"",
+            "technologies_used":[]
             
         },
         {
@@ -155,7 +165,8 @@
             "Resposibilties": [],
             "Company":"Dhira Software Private Limited",
             "Technology_stack" : [],
-            "github_link":""
+            "github_link":"",
+            "technologies_used":[]
         },
         {
             "ProjectId":"proPR12",
@@ -170,7 +181,8 @@
             "Resposibilties": [],
             "Company":"Dhira Software Private Limited",
             "Technology_stack" : [],
-            "github_link":""
+            "github_link":"",
+            "technologies_used":[]
         }
 
 

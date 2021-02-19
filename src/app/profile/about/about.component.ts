@@ -38,9 +38,9 @@ export class AboutComponent implements OnInit {
             const letter = document.createTextNode(l);
             const delay = typeSpeed * i;
     
-            setTimeout(() => {
+         setTimeout(() => {
               main.querySelector(target).appendChild(letter);
-            }, delay);
+            }, delay);   
           });
         };
     
@@ -53,9 +53,9 @@ export class AboutComponent implements OnInit {
         // Create new line
         const newLine = () => {
           const line = document.createElement("DIV");
-          line.innerHTML = '<span class="cursor active"></span>';
-          main.appendChild(line);
-          clearCursor();
+          // line.innerHTML = '<span class="cursor active"></span>';
+          // main.appendChild(line);
+          // clearCursor();
         };
     
         // Type initial greeting
@@ -76,14 +76,14 @@ export class AboutComponent implements OnInit {
     
         // If new line, drop "active" class
         // from first active cursor to remove animation
-        main.addEventListener("keydown", (e) => {
-          const key = e.keyCode;
-          if (key === 13) {
-            setTimeout(() => {
-              clearCursor();
-            }, 10);
-          }
-        });
+        // main.addEventListener("keydown", (e) => {
+        //   const key = e.keyCode;
+        //   if (key === 13) {
+        //     setTimeout(() => {
+        //       clearCursor();
+        //     }, 10);
+        //   }
+        // });
     
  
   }
